@@ -16,18 +16,32 @@ let minSp = (area / 16)
 console.log(minSp)
 
 
+//week 1
+if(minSp >area) {
+        console.log("Prune")
+} else{
+    console.log("No pruning")
+} //No Pruning
 
-if (minSp > area) {
-    console.log(`Prune`); {
-    } if (minSp < area) {
-        console.log(`No Pruning`);
-    }
-    if ((minSp > area) > (.5 * area)); {
-        console.log(`monitored`); {
-        }
-    }
-}
+// week 2
+let minSp2 =(area/32)
+
+if (minSp2 > area) {
+    console.log("Prune")    
+} else {
+    console.log("No Pruning")
+} // No Pruning
+
+// Week 3
+let minSp3 = (area/ 64)
+if (minSp3 > area) {
+    console.log("Prune")    
+} else {
+    console.log("No Pruning")
+} //no pruning
+
 //Monitered
+
 
 
 
